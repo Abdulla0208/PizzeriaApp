@@ -1,0 +1,16 @@
+/* ===============================
+   APP LAYOUT
+=============================== */
+.app-layout{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+
+/* ===============================
+   MAIN CONTENT
+=============================== */
+.main-content{
+    flex:1;
+    background:var(--bg-secondary);
+}

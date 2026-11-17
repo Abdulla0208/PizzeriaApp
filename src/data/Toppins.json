@@ -1,0 +1,79 @@
+[{
+  "id": 101,
+  "tname": "Pepperoni",
+  "price": 110,
+  "image": "/images/toppings/Pepperoni.png"
+},
+  {
+    "id": 102,
+    "tname": "Mushroom",
+    "price": 35,
+    "image": "/images/toppings/Mushroom.png"
+  },
+  {
+    "id": 103,
+    "tname": "Black beans",
+    "price": 45,
+    "image": "/images/toppings/Black beans.png"
+  },
+  {
+    "id": 104,
+    "tname": "Black olive",
+    "price": 50,
+    "image": "/images/toppings/Black olive.png"
+  },
+  {
+    "id": 105,
+    "tname": "Green olive",
+    "price": 50,
+    "image": "/images/toppings/Green olive.png"
+  },
+  {
+    "id": 106,
+    "tname": "Jalapeno",
+    "price": 45,
+    "image": "/images/toppings/Jalapeno.png"
+  },
+  {
+    "id": 107,
+    "tname": "Chicken",
+    "price": 60,
+    "image": "/images/toppings/Chicken.png"
+  },
+  {
+    "id": 108,
+    "tname": "Tomato",
+    "price": 20,
+    "image": "/images/toppings/Tomato.png"
+  },
+  {
+    "id": 119,
+    "tname": "Red peprika",
+    "price": 30,
+    "image": "/images/toppings/Red peprika.png"
+  },
+  {
+    "id": 110,
+    "tname": "Paneer",
+    "price": 45,
+    "image": "/images/toppings/Paneer.png"
+  },
+  {
+    "id": 111,
+    "tname": "Fried Onion",
+    "price": 18,
+    "image": "/images/toppings/Fried Onion.png"
+  },
+  {
+    "id": 112,
+    "tname": "Capsicum",
+    "price": 15,
+    "image": "/images/toppings/Capsicum.png"
+  },
+  {
+    "id": 114,
+    "tname": "Sweet corn",
+    "price": 38,
+    "image": "/images/toppings/Sweet corn.png"
+  }
+]

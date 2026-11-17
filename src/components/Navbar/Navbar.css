@@ -1,0 +1,142 @@
+/* ===============================
+   NAVBAR
+=============================== */
+.custom-navbar{
+    position:sticky !important;
+    top:0;
+    z-index:100;
+    background: var(--bg-primary);
+    height: 70px;
+    box-shadow: var(--shadow-sm);
+}
+
+/* ===============================
+   LOGO
+=============================== */
+.logo{
+    height:60px;
+    width:auto;
+}
+
+/* ===============================
+   NAVIGATION
+=============================== */
+.navbar-nav{
+    gap:50px;
+}
+
+.nav-link{
+    color: #ccc !important;
+    font-size: 18px !important;
+    font-weight:600 !important;
+    transition:var(--transition) !important;
+}
+
+.nav-link:hover{
+    color:#fff !important;
+}
+
+.nav-link.active{
+    color:var(--secondary) !important;
+}
+
+/* ===============================
+   RIGHT
+=============================== */
+.navbar-right{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+/* ===============================
+   BUTTONS
+=============================== */
+.nav-btn,
+.logout-btn{
+    padding:8px 18px;
+    border: 2px solid #C62828;
+    border-radius:var(--radius-md);
+    font-weight:600;
+    transition:var(--transition);
+}
+
+/* Login */
+
+.login-btn{
+    border:2px solid var(--primary);
+    color:var(--primary);
+}
+
+.login-btn:hover{
+    background:var(--primary);
+    color:#fff;
+}
+
+/* Register */
+.register-btn{
+    background:var(--primary);
+    color:white;
+}
+
+.register-btn:hover{
+    background:var(--secondary);
+}
+
+/* Logout */
+
+.logout-btn{
+    background: var(--bg-primary);
+    color:#C62828;
+}
+
+.logout-btn:hover{
+    background:var(--bg-primary);
+    color:#e70a0a;
+    border: 2px dotted #e70a0a;
+}
+
+/* Username */
+
+.username{
+    color:white;
+    font-weight:600;
+}
+
+/* ===============================
+   CART
+=============================== */
+
+.cart-btn{
+    width:48px;
+    height:48px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    background:var(--primary);
+    color:white;
+    font-size:20px;
+}
+
+.cart-btn:hover{
+    background:var(--secondary);
+    color:white;
+}
+
+.cart-count{
+    position:absolute;
+    top:-5px;
+    right:-5px;
+    width:22px;
+    height:22px;
+    border-radius:50%;
+    background:red;
+    color:white;
+    font-size:12px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:600;
+}

@@ -1,0 +1,94 @@
+/* ===============================
+   PAGE
+=============================== */
+.notfound-page{
+    min-height:80vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:var(--bg-secondary);
+    padding:40px 20px;
+}
+
+/* ===============================
+   CARD
+=============================== */
+.notfound-card{
+    width:100%;
+    max-width:650px;
+    background:#fff;
+    padding:60px 40px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:var(--shadow-md);
+}
+
+/* ===============================
+   ICON
+=============================== */
+.pizza-icon{
+    font-size:80px;
+    margin-bottom:20px;
+}
+
+/* ===============================
+   TEXT
+=============================== */
+.notfound-card h1{
+    font-size:96px;
+    color:var(--primary);
+    margin:0;
+    line-height:1;
+    font-weight:700;
+}
+
+.notfound-card h2{
+    margin-top:20px;
+    font-size:34px;
+}
+
+.notfound-card p{
+    margin:20px auto 35px;
+    max-width:460px;
+    color:var(--text-secondary);
+    line-height:1.7;
+}
+
+/* ===============================
+   BUTTONS
+=============================== */
+.notfound-buttons{
+    display:flex;
+    justify-content:center;
+    gap:16px;
+    flex-wrap:wrap;
+}
+
+.home-btn,
+.order-btn{
+    text-decoration:none;
+    padding:14px 30px;
+    border-radius:12px;
+    font-weight:600;
+    transition:var(--transition);
+}
+
+.home-btn{
+    background:transparent;
+    border:2px solid var(--primary);
+    color:var(--primary);
+}
+
+.home-btn:hover{
+    background:#fff6ea;
+}
+
+.order-btn{
+    background:var(--primary);
+    color:#fff;
+}
+
+.order-btn:hover{
+    background:var(--secondary);
+    color:#fff;
+}

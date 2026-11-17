@@ -1,0 +1,102 @@
+/* ===============================
+   RESET
+=============================== */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* ===============================
+   HTML
+=============================== */
+html{
+    scroll-behavior:smooth;
+}
+
+/* ===============================
+   BODY
+=============================== */
+body{
+    font-family:var(--body-font);
+    background:var(--bg-secondary);
+    color:var(--text-primary);
+    overflow-x:hidden;
+}
+
+/* ===============================
+   HEADINGS
+=============================== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family:var(--heading-font);
+    margin-bottom:0;
+}
+
+/* ===============================
+   LINKS
+=============================== */
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+/* ===============================
+   LIST
+=============================== */
+ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+/* ===============================
+   IMAGES
+=============================== */
+img{
+    display:block;
+    max-width:100%;
+}
+
+/* ===============================
+   BUTTONS
+=============================== */
+button{
+    border:none;
+    outline:none;
+    cursor:pointer;
+    transition:var(--transition);
+}
+
+/* ===============================
+   INPUTS
+=============================== */
+input,
+textarea,
+select{
+    outline:none;
+    border:1px solid var(--border-color);
+    transition:var(--transition);
+}
+
+/* ===============================
+   SECTION
+=============================== */
+section{
+   padding:25px 0;
+}
+
+section.Toastify{
+   padding:0;
+}
+
+/* ===============================
+   CONTAINER
+=============================== */
+.container{
+    max-width:1200px;
+}
